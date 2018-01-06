@@ -185,11 +185,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4876162127006532, guid: ba5831e47b8ae1b41a06e4fc596aa231, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4896818707312914, guid: ba5831e47b8ae1b41a06e4fc596aa231, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4229741463293862, guid: ba5831e47b8ae1b41a06e4fc596aa231, type: 2}
       propertyPath: m_RootOrder
@@ -214,6 +214,26 @@ Prefab:
     - target: {fileID: 4896818707312914, guid: ba5831e47b8ae1b41a06e4fc596aa231, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515730845390052, guid: ba5831e47b8ae1b41a06e4fc596aa231, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220318410091834, guid: ba5831e47b8ae1b41a06e4fc596aa231, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220318410091834, guid: ba5831e47b8ae1b41a06e4fc596aa231, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4043464398504158, guid: ba5831e47b8ae1b41a06e4fc596aa231, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4515730845390052, guid: ba5831e47b8ae1b41a06e4fc596aa231, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ba5831e47b8ae1b41a06e4fc596aa231, type: 2}
@@ -474,6 +494,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1330404935338850, guid: 376c4c9a785e94eab9deab1fa47f4850, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 376c4c9a785e94eab9deab1fa47f4850, type: 2}
   m_IsPrefabParent: 0
@@ -492,8 +516,8 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Convex: 1
-  m_CookingOptions: -2
-  m_SkinWidth: 0.01
+  m_CookingOptions: -1
+  m_SkinWidth: 0.02
   m_Mesh: {fileID: 4300000, guid: 7e15121f5f042ed46aba81406403f2d2, type: 3}
 --- !u!65 &1848431820
 BoxCollider:
@@ -684,8 +708,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0, g: 0.04827571, b: 1, a: 1}
-  m_Intensity: 100
-  m_Range: 6
+  m_Intensity: 20
+  m_Range: 2
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
