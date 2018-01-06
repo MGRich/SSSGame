@@ -124,7 +124,7 @@ Prefab:
     - target: {fileID: 114102049278672950, guid: ba5831e47b8ae1b41a06e4fc596aa231,
         type: 2}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4040014005280174, guid: ba5831e47b8ae1b41a06e4fc596aa231, type: 2}
       propertyPath: m_LocalPosition.x
@@ -310,6 +310,16 @@ Prefab:
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114102049278672950, guid: ba5831e47b8ae1b41a06e4fc596aa231,
+        type: 2}
+      propertyPath: materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 61b6cdb2952761842b04707b9d33f35c, type: 2}
+    - target: {fileID: 114102049278672950, guid: ba5831e47b8ae1b41a06e4fc596aa231,
+        type: 2}
+      propertyPath: colorName
+      value: _Color
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ba5831e47b8ae1b41a06e4fc596aa231, type: 2}
   m_IsPrefabParent: 0
@@ -486,7 +496,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.32352942, g: 0.32352942, b: 0.32352942, a: 0.019607844}
+  m_BackGroundColor: {r: 0, g: 0.13833667, b: 0.64705884, a: 0.019607844}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -502,11 +512,11 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: 3
+  m_RenderingPath: 1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 0
+  m_HDR: 1
   m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
@@ -882,7 +892,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0, g: 0.04827571, b: 1, a: 1}
-  m_Intensity: 20
+  m_Intensity: 60
   m_Range: 2
   m_SpotAngle: 30
   m_CookieSize: 10
