@@ -23,13 +23,13 @@ public class GameController : MonoBehaviour
 		}
     }
 
-    void Update()
+    /*void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             RestartLevel();
         }
-    }
+    }*/ // Replaced this with escape menu;
 
     void OnApplicationFocus(bool hasFocus)
     {
